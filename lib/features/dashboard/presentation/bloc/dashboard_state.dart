@@ -9,16 +9,15 @@ class DashboardLoadingState extends DashboardState {}
 class TemperatureLoadedState extends DashboardState {
   final List<TemperatureData> temperature;
   final List<WeatherData> weather;
+  final List<WindDirectionData> windDirection;
 
-  TemperatureLoadedState(this.temperature, this.weather);
+  TemperatureLoadedState(
+    this.temperature,
+    this.weather,
+    this.windDirection,
+  );
 }
 
-class WeatherLoadedState extends DashboardState {
-  // WeatherLoadedState(this.weather);
-}
+class WeatherLoadedState extends DashboardState {}
 
-class DashboardErrorState extends DashboardState {
-  // final String error;
-
-  // DashboardErrorState(this.error);
-}
+class DashboardErrorState extends DashboardState {}
