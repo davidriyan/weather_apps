@@ -38,6 +38,7 @@ dependencies:
   go_router: ^13.2.0
   google_fonts: ^6.1.0
   loading_indicator: ^3.1.1
+  persistent_bottom_nav_bar: ^5.0.2
   svg_flutter: ^0.0.1
 
 dev_dependencies:
