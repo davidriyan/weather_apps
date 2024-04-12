@@ -1,4 +1,3 @@
-import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:svg_flutter/svg.dart';
 import 'package:weather_apps/config/string_resources.dart';
